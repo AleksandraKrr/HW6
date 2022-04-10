@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 24px;
+
+}
+
+.general_header_first_level {
+  font-weight: 900;
+  text-align: center;
+  text-decoration-style: double;
+  text-decoration-line: underline;
+}
+
+.charlotte_recipe {
+  position: relative;
+  margin: 140px 300px 150px 300px;
+  border: 3px solid rgba(15, 50, 62, 0.406);
+  border-left-style: dashed;
+  border-bottom-style: dashed;
+  min-width: 200px;
+  padding: 30px 60px 10px 50px;
+  background-color: rgba(45, 174, 216, 0.235);
+  font-weight: 400;
+}
+
+.charlotte_img {
+  position: absolute;
+  top: -120px;
+  bottom: auto;
+  left: auto;
+  right: -100px;
+  border: 5px solid rgba(3, 41, 53, 0.755);
+  width: 330px;
+}
+
+.charlotte_about::first-letter {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgba(3, 41, 53, 0.755);  
+}
+
+.charlotte_second_level_header {
+  margin-bottom: 60px;
+  font-weight: 800;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  color: rgba(3, 41, 53, 0.755);
+}
+
+.charlotte_third_level_header {
+  font-weight: 800;
+  color: rgba(3, 41, 53, 0.755);
+}
+
+.charlotte_ingredient_list li:nth-child(2n) {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  color: rgba(3, 41, 53, 0.755);
+}
+
+.charlotte_step_list li:nth-child(2n) {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  color: rgba(3, 41, 53, 0.755);
+}
+
+.advice {
+  margin-top: 100px;
+  font-style: italic;
+  text-align: center;
+  text-decoration-style: solid;
+  text-decoration-line: overline;  
+}
+
+
+.tiramisu_recipe {
+  position: relative;
+  margin: 140px 300px 150px 300px;
+  border: 3px solid rgba(58, 58, 58, 0.762);
+  border-left-style: dashed;
+  border-bottom-style: dashed;
+  padding: 30px 60px 10px 50px;
+  background-color: rgba(169, 169, 169, 0.18);
+  min-width: 200px;
+  font-weight: 400;
+}
+
+.tiramisu_img {
+  position: absolute;
+  top: -100px;
+  bottom: auto;
+  left: auto;
+  right: -100px;
+  border: 5px solid rgba(58, 58, 58, 0.762);
+  width: 330px;
+  height: 220px;
+}
+
+.tiramisu_second_level_header {
+  margin-bottom: 60px;
+  font-weight: 800;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisu_about::first-letter {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisu_third_level_header {
+  font-weight: 800;
+  color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisu_ingredient_list li:nth-child(2n+1) {
+  text-decoration: dashed;
+  text-decoration-line: underline;
+  color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisu_step_list li:nth-child(2n+1) {
+  text-decoration: dashed;
+  text-decoration-line: underline;
+  color: rgba(58, 58, 58, 0.762);
+}
+
+
+.cookies_recipe {
+  position: relative;
+  margin: 140px 300px 150px 300px;
+  border: 3px solid rgba(34, 74, 34, 0.831);
+  border-left-style: dashed;
+  border-bottom-style: dashed;
+  min-width: 200px;
+  padding: 30px 60px 10px 50px;
+  background-color: rgba(143, 188, 143, 0.618);
+  font-weight: 400;
+}
+
+.cookies_img {
+  position: absolute;
+  top: -120px;
+  bottom: auto;
+  left: auto;
+  right: -100px;
+  border: 5px solid rgba(58, 58, 58, 0.762);
+  width: 330px;
+}
+
+.cookies_second_level_header {
+  margin-bottom: 60px;
+  font-weight: 800;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  color: rgba(34, 74, 34, 0.831);
+}
+
+.cookies_about::first-letter {
+  margin-bottom: 60px;
+  font-weight: 800;
+  font-size: 30px;
+  color: rgba(34, 74, 34, 0.831);
+}
+
+.cookies_third_level_header {
+  font-weight: 800;
+  color: rgba(34, 74, 34, 0.831);
+}
+
+.cookies_ingredient_list li:nth-child(3n) {
+  text-decoration: wavy;
+  text-decoration-line: underline;
+  color: rgba(34, 74, 34, 0.831);
+}
+
+.cookies_step_list li:nth-child(3n) {
+  text-decoration: wavy;
+  text-decoration-line: underline;
+  color: rgba(34, 74, 34, 0.831);
+}
+
+
